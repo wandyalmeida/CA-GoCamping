@@ -62,7 +62,7 @@ public class GoCamping {
             System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             System.out.println("What is your size of Bag? ");
             System.out.println("[1] Large 90l \n[2] Medium 65l \n[3] Small 30l \n ");
-            option = mykb.getUserInt("Type a number: ", 0);
+            option = mykb.getUserInt("Type a number: ", 1);
             switch (option){
                 case 1:
                     myCampingBag  = new CampingBag(90); // bag get the 90 of capacity
